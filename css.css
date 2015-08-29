@@ -1,0 +1,38 @@
+body{
+    width:304px
+}
+a{
+    color:#00f;text-decoration:none
+}
+a:hover{
+    text-decoration:underline
+}
+h2{
+    background-image:url(images/anchor.jpg);
+    background-size:32px 32px;
+    background-repeat:no-repeat;
+    padding-left:42px;
+    line-height:32px
+}
+#call-to-action{
+    margin-bottom:20px
+}
+#call-to-action a{
+    display:inline-block;
+    background-color:#000;
+    color:#fff;
+    padding:4px
+}
+#picture div{
+    position:absolute;
+    background-color:#fff;
+    width:304px
+}
+#picture img{
+    width:304px;
+    height:304px
+}
+.current{
+    z-index:100
+}
+@media (-webkit-min-device-pixel-ratio:2){h2{background-image:url(images/anchor@2x.jpg)}}
